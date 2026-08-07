@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- A semântica no HTML significa usar tags certas para cada tipo de conteúdo, ajudando navegadores, mecanismos de busca e leitores de tela a entenderem melhor a estrutura da página -->
+
+    <!-- Beneficios do HTML semântico -->
+     <!-- 
+    Melhor a acessibilidade (leitores de tela conseguem interpretar melhor)
+    Melhora o SEO (O google entende melhor a estrutura do site)
+    Facilita a manutenção do código (código mais organizado e legível)
+    Ajuda na responsabilidade (tags semânticas trabalham melhor com CSS e JS)
+        -->
+
+        <!-- SEM SEMÂNTICA -->
+        <!--------------------------
+         <a href="#">Inicio</a>
+         <a href="#">Sobre</a>
+         <p>Texto principal do site.</p>
+         <p>Todos direitos reservados.</p>
+        --->
+
+        <!-- HTML Semânico -->
+
+        <header>
+            <!-- O topo do site ou de uma seção (Logo, Titulo e menu de navegação) -->
+            <nav>
+            <!-- Contém links de navegação para outras partes do site -->
+                <a href="">Inicio</a>
+                <a href="">Sobre</a>
+            </nav>
+        </header>
+        <main>
+       <!-- Contém o conteúdo principal da página -->
+            <h1>Nóticias AO VIVO do Sesi</h1>
+
+            <section>
+            <!-- Usada para agrupar conteúdos relacionados dentro de uma página, geralmente
+             com um título, indicando que fazem parte de um tema específico -->
+                <h2>Últimas Nóticias</h2>
+                <p>Hoje foi anunciado um novo projeto...</p>
+
+                <article>
+                <!-- Representa um conteúdo independente e autocontido, que pode ser distribuido ou reutilizando separadamente sem perder o sentido. Ex: Postagens BLOG, Notícias, comentários de usuários, Cards de produtos, ou artigos de revista, ... -->
+                    <h3>Os alunos amam ir para o Senai/Sesi</h3>
+                    <p>Descrição...</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados</p>
+        </footer>
+        
+</html>
