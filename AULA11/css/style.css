@@ -1,0 +1,24 @@
+body {
+    background-color: #b080f277
+}
+/* Seletores
+
+Própria tag HTML
+h1, p, span, a...
+
+id
+Atributo HTML que adiciona um identificador UNICO na tag. Esse identificador pode ser utilizado no CSS para selecionarmos o elemento: */
+
+#paragrafo1 {
+    color:cadetblue;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+/* Classes */
+/* Atributos HTML que adiciona identificador reutílizavel na TAG. Esse identificador pode ser utilizado no CSS para selecionarmos o(s) elemento(s):*/
+
+.titulo {
+    color: chocolate
+}
