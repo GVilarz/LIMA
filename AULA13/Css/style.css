@@ -1,0 +1,56 @@
+/* ========================== */
+/* Configuração Geral */
+/* =========================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+/* ========================== */
+/* 1. Block */
+/* =========================== */
+/* Ocupa toda largura disponível (ex: div, p, h1) */
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 15px;
+    margin: 5px;
+    border: solid blue 2px;
+}
+
+/* ========================== */
+/* 2. InLine */
+/* ========================= */
+/* Ocupa só o espaço do conteúdo*/
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+    padding: 15px;
+    border: 2px solid blueviolet;
+}
+
+/* ========================== */
+/* 3. InLine Block */
+/* ========================= */
+/* Ocupa só o espaço do conteúdo, permite controlar o width e height*/
+
+.inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid green;
+}
