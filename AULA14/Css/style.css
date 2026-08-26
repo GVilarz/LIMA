@@ -1,0 +1,47 @@
+body {
+    background-color: azure;
+}
+
+/* FLEXBOX */
+/* justify-content */
+/* Controla como os itens */
+/* 
+    Flex-start: alinhar os itens à esquerda
+    Center: Centraliza os itens horizontalmente
+    Flex-end: Alinhar os itens à direita
+    Space-between: Espaço igual entre os itens, o primeiro à esquerda e o último à esquerda e o último à direita
+    space-around: Espaço igual ao redor de cada item (meio termo entre os itens é maior)
+    space-evenly: Espaço exatamente igual entre todos itens (inclusive as bordas)
+
+    Aling-Itens
+
+    flex-start: alinha os itens no topo
+    center: centraliza verticalmente
+    flex-end: alinha os itens na parte inferior
+    stretch: estoca os itens para ocupar toda a largura
+    baseline: alinha com base na linha base do texto interno
+
+    flex-direction
+
+    row: alinha os itens de esquerda para direita
+    row-reverse: da direita para a esquerda
+    column: de cima para baixo
+    column-reverse: de baixo para cima
+*/
+
+.container {
+    display: flex;
+    justify-content:
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
