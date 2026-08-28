@@ -31,7 +31,7 @@ body {
 
 .container {
     display: flex;
-    justify-content:
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: gray;
